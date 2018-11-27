@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popUpDialogView"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="-1dp"
+        android:background="@color/colorAccentDark"/>
+
+    <TextView
+        android:id="@+id/upcomingPopUpHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="COMING SOON"
+        android:textColor="#FFFF"
+        />
+    <TextView
+        android:id="@+id/upcomingPopUpDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#272627"
+        android:text="@string/upcoming_popDesc_Txt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="left"
+        android:padding="3dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_below="@id/popUpLineOne"/>
+    <View
+        android:id="@+id/upcomingPopUpLineOne"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@android:color/darker_gray"/>
+
+    <ImageView
+        android:layout_width="133dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="155dp"
+        android:gravity="left"
+        android:onClick="onPlayStoreImageClick"
+        android:src="@drawable/play_badge" />
+
+</android.support.v7.widget.CardView>

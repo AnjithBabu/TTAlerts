@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment"
+    android:background="@color/mainBack">
+
+    <Button
+        android:layout_width="213dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rss_btn_gradient"
+        android:drawableStart="@drawable/ic_rss_feed_logo"
+        android:padding="20dp"
+        android:text="@string/rss_txt"
+        android:textColor="#FFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="213dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="44dp"
+        android:layout_gravity="center"
+        android:background="@drawable/twit_button_gradient"
+        android:drawableStart="@drawable/ic_twitter_logo"
+        android:padding="20dp"
+        android:text="@string/twitter_txt"
+        android:textColor="#FFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/note_txt"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="16dp"
+        android:textColor="#FFFF"
+        android:padding="20dp"/>
+
+</FrameLayout>

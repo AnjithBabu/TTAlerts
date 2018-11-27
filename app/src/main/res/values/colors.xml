@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentDark">#cc4270</color>
+    <color name="appHeaderShadeTwo">#B20000</color>
+    <color name="appHeader">#660000</color>
+    <color name="appHeaderShade">#FF800000</color>
+    <color name="listTitleBackground">#FF800000</color>
+    <color name="white">#FFF</color>
+    <color name="popupBack">#2f333f</color>
+    <color name="mainBack">#324E6A</color>
+    <color name="closurePopup">#434343</color>
+    <color name="alertPopup">#3188EA</color>
+</resources>

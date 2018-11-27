@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TTA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Toronto Transit Alerts</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <integer name="splash_timeout">4000</integer>
+    <string name="connection_error">Error in connecting to rss feed</string>
+    <string name="xml_error">Error reading xml</string>
+    <string name="title_activity_subway_alerts">SubwayAlertsActivity</string>
+    <string name="no_conn_title">No internet connection</string>
+
+    <!-- Main screen -->
+    <string name="twitter_txt">Twitter</string>
+    <string name="rss_txt">Rss Feed</string>
+    <string name="note_txt">Please choose from above option, to get alerts.
+        Rss feed might be slower and not instant, please choose twitter
+        for instant alerts.</string>
+    <string name="error">Device is offline or an error occurred, please
+        try later.</string>
+    <string name="upcoming_popDesc_Txt">Feature coming in a future version, check
+        playstore for updates.</string>
+    <string name="google_play">GOOGLE PLAY</string>
+
+    <!-- TTC Fragment -->
+    <string name="ttc_header_title">TTC Alerts</string>
+
+    <!-- Closure Popup -->
+    <string name="closure_popup_ttle">Subway Closures</string>
+
+    <!-- Testing secton -->
+    <string name="test_alert_content">Route 501: No service ....</string>
+    <string name="test_alert_tag">Davisville, Bloor</string>
+    <string name="test_popup">Route 501: No service between Humber Loop and Roncesvalles
+        Ave due to a collision. Shuttle buses are on the way.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

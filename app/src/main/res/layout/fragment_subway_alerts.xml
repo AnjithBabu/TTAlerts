@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubwayAlertsFragment">
+
+    <TextView
+        android:id="@+id/listHeading"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="7dp"
+        android:background="@drawable/rounded_textview_back"
+        android:gravity="left"
+        android:padding="12dp"
+        android:text="@string/ttc_header_title"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/noConnection"
+        android:layout_width="221dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="7dp"
+        android:background="@drawable/rounded_textview_back"
+        android:gravity="left"
+        android:padding="12dp"
+        android:text="@string/no_conn_title"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="monospace" />
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFF"
+        android:drawableTop="@drawable/ic_closure"
+        android:text="Closures"
+        android:padding="2dp"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:onClick="onClosureBtnClick"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="56dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#FFFF"
+        android:drawableTop="@drawable/ic_filter"
+        android:text="Filter"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:onClick="onFilterBtnClick"/>
+
+    <include
+        layout="@layout/fragment_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="72dp"
+        android:id="@+id/alertListSwipe">
+        <ListView
+            android:id="@+id/alertListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/listHeading"
+            android:layout_marginTop="72dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            tools:listitem="@layout/list_item" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</FrameLayout>
